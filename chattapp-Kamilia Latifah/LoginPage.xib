@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginPage" customModule="chattapp_Kamilia_Latifah" customModuleProvider="target">
+            <connections>
+                <outlet property="buttonRegister" destination="9dZ-b7-5ow" id="RqZ-4Y-oc5"/>
+                <outlet property="textfieldEmail" destination="SPz-Hj-MZn" id="nhM-DZ-iq4"/>
+                <outlet property="textfieldName" destination="T0C-Iw-GCu" id="irR-YK-ca8"/>
+                <outlet property="textfieldPassword" destination="JYu-X3-h6M" id="7fp-kW-Jvz"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T0C-Iw-GCu">
+                    <rect key="frame" x="37" y="181" width="329" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JYu-X3-h6M">
+                    <rect key="frame" x="37" y="263" width="329" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dZ-b7-5ow">
+                    <rect key="frame" x="167" y="320" width="42" height="30"/>
+                    <state key="normal" title="Log In"/>
+                    <connections>
+                        <action selector="buttonRegisterAction:" destination="-1" eventType="touchUpInside" id="HAk-9S-c0P"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SPz-Hj-MZn">
+                    <rect key="frame" x="37" y="223" width="329" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="SPz-Hj-MZn" firstAttribute="top" secondItem="T0C-Iw-GCu" secondAttribute="bottom" constant="8" id="1Uu-V8-Gi7"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="9dZ-b7-5ow" secondAttribute="trailing" constant="205" id="8Fr-BU-OmV"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="SPz-Hj-MZn" secondAttribute="trailing" constant="48" id="BgB-d3-xeg"/>
+                <constraint firstItem="JYu-X3-h6M" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="37" id="DLv-fx-cpJ"/>
+                <constraint firstItem="9dZ-b7-5ow" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="167" id="QkP-F4-htV"/>
+                <constraint firstItem="9dZ-b7-5ow" firstAttribute="top" secondItem="JYu-X3-h6M" secondAttribute="bottom" constant="23" id="TO6-di-hkr"/>
+                <constraint firstItem="JYu-X3-h6M" firstAttribute="top" secondItem="SPz-Hj-MZn" secondAttribute="bottom" constant="6" id="VnE-Vy-XEw"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="T0C-Iw-GCu" secondAttribute="trailing" constant="48" id="dTT-RI-bho"/>
+                <constraint firstItem="T0C-Iw-GCu" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="37" id="eg0-Mx-2mA"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JYu-X3-h6M" secondAttribute="trailing" constant="48" id="inp-7w-4ao"/>
+                <constraint firstItem="SPz-Hj-MZn" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="37" id="sKl-cH-wl7"/>
+                <constraint firstItem="T0C-Iw-GCu" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="137" id="xnE-Yh-wGu"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="144.64285714285714"/>
+        </view>
+    </objects>
+</document>

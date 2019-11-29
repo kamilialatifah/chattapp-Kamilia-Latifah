@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,12 @@
 		0840F11B2391294900D5DCA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0840F1192391294900D5DCA2 /* Main.storyboard */; };
 		0840F11D2391294C00D5DCA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0840F11C2391294C00D5DCA2 /* Assets.xcassets */; };
 		0840F1202391294C00D5DCA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0840F11E2391294C00D5DCA2 /* LaunchScreen.storyboard */; };
+		0840F12923912A1B00D5DCA2 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0840F12723912A1B00D5DCA2 /* LoginPage.swift */; };
+		0840F12A23912A1B00D5DCA2 /* LoginPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0840F12823912A1B00D5DCA2 /* LoginPage.xib */; };
+		08DE30E923913E9300BB5294 /* ChatroomPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE30E723913E9300BB5294 /* ChatroomPage.swift */; };
+		08DE30EA23913E9300BB5294 /* ChatroomPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08DE30E823913E9300BB5294 /* ChatroomPage.xib */; };
+		08DE30F02391606400BB5294 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08DE30EF2391606400BB5294 /* GoogleService-Info.plist */; };
+		EC267F3CBE5593438BD97A47 /* Pods_chattapp_Kamilia_Latifah.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF904382C23DE1D4B54FB16C /* Pods_chattapp_Kamilia_Latifah.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,14 @@
 		0840F11C2391294C00D5DCA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0840F11F2391294C00D5DCA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0840F1212391294C00D5DCA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0840F12723912A1B00D5DCA2 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		0840F12823912A1B00D5DCA2 /* LoginPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginPage.xib; sourceTree = "<group>"; };
+		08DE30E723913E9300BB5294 /* ChatroomPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatroomPage.swift; sourceTree = "<group>"; };
+		08DE30E823913E9300BB5294 /* ChatroomPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatroomPage.xib; sourceTree = "<group>"; };
+		08DE30EF2391606400BB5294 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3E6EF305BA36CA2BE8E896D4 /* Pods-chattapp-Kamilia Latifah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chattapp-Kamilia Latifah.debug.xcconfig"; path = "Target Support Files/Pods-chattapp-Kamilia Latifah/Pods-chattapp-Kamilia Latifah.debug.xcconfig"; sourceTree = "<group>"; };
+		6AEEFA83764487651412F522 /* Pods-chattapp-Kamilia Latifah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chattapp-Kamilia Latifah.release.xcconfig"; path = "Target Support Files/Pods-chattapp-Kamilia Latifah/Pods-chattapp-Kamilia Latifah.release.xcconfig"; sourceTree = "<group>"; };
+		DF904382C23DE1D4B54FB16C /* Pods_chattapp_Kamilia_Latifah.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chattapp_Kamilia_Latifah.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC267F3CBE5593438BD97A47 /* Pods_chattapp_Kamilia_Latifah.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				0840F1122391294900D5DCA2 /* chattapp-Kamilia Latifah */,
 				0840F1112391294900D5DCA2 /* Products */,
+				A6A43863FC083C713ED43FC9 /* Pods */,
+				352FF08EF88FA0F29231AE93 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +76,34 @@
 				0840F1132391294900D5DCA2 /* AppDelegate.swift */,
 				0840F1152391294900D5DCA2 /* SceneDelegate.swift */,
 				0840F1172391294900D5DCA2 /* ViewController.swift */,
+				0840F12723912A1B00D5DCA2 /* LoginPage.swift */,
+				0840F12823912A1B00D5DCA2 /* LoginPage.xib */,
+				08DE30E723913E9300BB5294 /* ChatroomPage.swift */,
+				08DE30E823913E9300BB5294 /* ChatroomPage.xib */,
 				0840F1192391294900D5DCA2 /* Main.storyboard */,
 				0840F11C2391294C00D5DCA2 /* Assets.xcassets */,
+				08DE30EF2391606400BB5294 /* GoogleService-Info.plist */,
 				0840F11E2391294C00D5DCA2 /* LaunchScreen.storyboard */,
 				0840F1212391294C00D5DCA2 /* Info.plist */,
 			);
 			path = "chattapp-Kamilia Latifah";
+			sourceTree = "<group>";
+		};
+		352FF08EF88FA0F29231AE93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF904382C23DE1D4B54FB16C /* Pods_chattapp_Kamilia_Latifah.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6A43863FC083C713ED43FC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E6EF305BA36CA2BE8E896D4 /* Pods-chattapp-Kamilia Latifah.debug.xcconfig */,
+				6AEEFA83764487651412F522 /* Pods-chattapp-Kamilia Latifah.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0840F1242391294C00D5DCA2 /* Build configuration list for PBXNativeTarget "chattapp-Kamilia Latifah" */;
 			buildPhases = (
+				F6CC7857C486AF7E79563963 /* [CP] Check Pods Manifest.lock */,
 				0840F10C2391294900D5DCA2 /* Sources */,
 				0840F10D2391294900D5DCA2 /* Frameworks */,
 				0840F10E2391294900D5DCA2 /* Resources */,
+				C8CCF352A684C1FBC0E6F437 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,19 +166,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0840F12A23912A1B00D5DCA2 /* LoginPage.xib in Resources */,
 				0840F1202391294C00D5DCA2 /* LaunchScreen.storyboard in Resources */,
 				0840F11D2391294C00D5DCA2 /* Assets.xcassets in Resources */,
+				08DE30EA23913E9300BB5294 /* ChatroomPage.xib in Resources */,
 				0840F11B2391294900D5DCA2 /* Main.storyboard in Resources */,
+				08DE30F02391606400BB5294 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C8CCF352A684C1FBC0E6F437 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chattapp-Kamilia Latifah/Pods-chattapp-Kamilia Latifah-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chattapp-Kamilia Latifah/Pods-chattapp-Kamilia Latifah-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chattapp-Kamilia Latifah/Pods-chattapp-Kamilia Latifah-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6CC7857C486AF7E79563963 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chattapp-Kamilia Latifah-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0840F10C2391294900D5DCA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08DE30E923913E9300BB5294 /* ChatroomPage.swift in Sources */,
+				0840F12923912A1B00D5DCA2 /* LoginPage.swift in Sources */,
 				0840F1182391294900D5DCA2 /* ViewController.swift in Sources */,
 				0840F1142391294900D5DCA2 /* AppDelegate.swift in Sources */,
 				0840F1162391294900D5DCA2 /* SceneDelegate.swift in Sources */,
@@ -282,6 +370,7 @@
 		};
 		0840F1252391294C00D5DCA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E6EF305BA36CA2BE8E896D4 /* Pods-chattapp-Kamilia Latifah.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +389,7 @@
 		};
 		0840F1262391294C00D5DCA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AEEFA83764487651412F522 /* Pods-chattapp-Kamilia Latifah.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

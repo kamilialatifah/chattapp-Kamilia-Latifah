@@ -18,6 +18,14 @@
 		08DE30E923913E9300BB5294 /* ChatroomPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE30E723913E9300BB5294 /* ChatroomPage.swift */; };
 		08DE30EA23913E9300BB5294 /* ChatroomPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08DE30E823913E9300BB5294 /* ChatroomPage.xib */; };
 		08DE30F02391606400BB5294 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08DE30EF2391606400BB5294 /* GoogleService-Info.plist */; };
+		08DE30F623935D3C00BB5294 /* RegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE30F423935D3C00BB5294 /* RegisterPage.swift */; };
+		08DE30F723935D3C00BB5294 /* RegisterPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08DE30F523935D3C00BB5294 /* RegisterPage.xib */; };
+		08DE31072393B2A500BB5294 /* ChatPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE31052393B2A500BB5294 /* ChatPageViewController.swift */; };
+		08DE31082393B2A500BB5294 /* ChatPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08DE31062393B2A500BB5294 /* ChatPageViewController.xib */; };
+		08DE310B2393B66B00BB5294 /* ChatpageCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE31092393B66B00BB5294 /* ChatpageCellTableViewCell.swift */; };
+		08DE310C2393B66B00BB5294 /* ChatpageCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08DE310A2393B66B00BB5294 /* ChatpageCellTableViewCell.xib */; };
+		08DE310E2393F8F300BB5294 /* paperplane.gif in Resources */ = {isa = PBXBuildFile; fileRef = 08DE310D2393F8F300BB5294 /* paperplane.gif */; };
+		08DE31102393FABD00BB5294 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE310F2393FABC00BB5294 /* File.swift */; };
 		EC267F3CBE5593438BD97A47 /* Pods_chattapp_Kamilia_Latifah.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF904382C23DE1D4B54FB16C /* Pods_chattapp_Kamilia_Latifah.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +43,15 @@
 		08DE30E723913E9300BB5294 /* ChatroomPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatroomPage.swift; sourceTree = "<group>"; };
 		08DE30E823913E9300BB5294 /* ChatroomPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatroomPage.xib; sourceTree = "<group>"; };
 		08DE30EF2391606400BB5294 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		08DE30F423935D3C00BB5294 /* RegisterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPage.swift; sourceTree = "<group>"; };
+		08DE30F523935D3C00BB5294 /* RegisterPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterPage.xib; sourceTree = "<group>"; };
+		08DE30F823937D6000BB5294 /* chattapp-Kamilia Latifah.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "chattapp-Kamilia Latifah.entitlements"; sourceTree = "<group>"; };
+		08DE31052393B2A500BB5294 /* ChatPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPageViewController.swift; sourceTree = "<group>"; };
+		08DE31062393B2A500BB5294 /* ChatPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatPageViewController.xib; sourceTree = "<group>"; };
+		08DE31092393B66B00BB5294 /* ChatpageCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatpageCellTableViewCell.swift; sourceTree = "<group>"; };
+		08DE310A2393B66B00BB5294 /* ChatpageCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatpageCellTableViewCell.xib; sourceTree = "<group>"; };
+		08DE310D2393F8F300BB5294 /* paperplane.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = paperplane.gif; sourceTree = "<group>"; };
+		08DE310F2393FABC00BB5294 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		3E6EF305BA36CA2BE8E896D4 /* Pods-chattapp-Kamilia Latifah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chattapp-Kamilia Latifah.debug.xcconfig"; path = "Target Support Files/Pods-chattapp-Kamilia Latifah/Pods-chattapp-Kamilia Latifah.debug.xcconfig"; sourceTree = "<group>"; };
 		6AEEFA83764487651412F522 /* Pods-chattapp-Kamilia Latifah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chattapp-Kamilia Latifah.release.xcconfig"; path = "Target Support Files/Pods-chattapp-Kamilia Latifah/Pods-chattapp-Kamilia Latifah.release.xcconfig"; sourceTree = "<group>"; };
 		DF904382C23DE1D4B54FB16C /* Pods_chattapp_Kamilia_Latifah.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chattapp_Kamilia_Latifah.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,20 +90,45 @@
 		0840F1122391294900D5DCA2 /* chattapp-Kamilia Latifah */ = {
 			isa = PBXGroup;
 			children = (
+				08DE30F823937D6000BB5294 /* chattapp-Kamilia Latifah.entitlements */,
 				0840F1132391294900D5DCA2 /* AppDelegate.swift */,
 				0840F1152391294900D5DCA2 /* SceneDelegate.swift */,
 				0840F1172391294900D5DCA2 /* ViewController.swift */,
-				0840F12723912A1B00D5DCA2 /* LoginPage.swift */,
-				0840F12823912A1B00D5DCA2 /* LoginPage.xib */,
-				08DE30E723913E9300BB5294 /* ChatroomPage.swift */,
-				08DE30E823913E9300BB5294 /* ChatroomPage.xib */,
+				08DE31112394096900BB5294 /* XIB */,
+				08DE30F323935CC400BB5294 /* View Controllers */,
 				0840F1192391294900D5DCA2 /* Main.storyboard */,
 				0840F11C2391294C00D5DCA2 /* Assets.xcassets */,
 				08DE30EF2391606400BB5294 /* GoogleService-Info.plist */,
 				0840F11E2391294C00D5DCA2 /* LaunchScreen.storyboard */,
 				0840F1212391294C00D5DCA2 /* Info.plist */,
+				08DE310D2393F8F300BB5294 /* paperplane.gif */,
+				08DE310F2393FABC00BB5294 /* File.swift */,
 			);
 			path = "chattapp-Kamilia Latifah";
+			sourceTree = "<group>";
+		};
+		08DE30F323935CC400BB5294 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0840F12723912A1B00D5DCA2 /* LoginPage.swift */,
+				08DE30F423935D3C00BB5294 /* RegisterPage.swift */,
+				08DE30E723913E9300BB5294 /* ChatroomPage.swift */,
+				08DE31052393B2A500BB5294 /* ChatPageViewController.swift */,
+				08DE31092393B66B00BB5294 /* ChatpageCellTableViewCell.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		08DE31112394096900BB5294 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				0840F12823912A1B00D5DCA2 /* LoginPage.xib */,
+				08DE30F523935D3C00BB5294 /* RegisterPage.xib */,
+				08DE30E823913E9300BB5294 /* ChatroomPage.xib */,
+				08DE31062393B2A500BB5294 /* ChatPageViewController.xib */,
+				08DE310A2393B66B00BB5294 /* ChatpageCellTableViewCell.xib */,
+			);
+			path = XIB;
 			sourceTree = "<group>";
 		};
 		352FF08EF88FA0F29231AE93 /* Frameworks */ = {
@@ -170,8 +212,12 @@
 				0840F1202391294C00D5DCA2 /* LaunchScreen.storyboard in Resources */,
 				0840F11D2391294C00D5DCA2 /* Assets.xcassets in Resources */,
 				08DE30EA23913E9300BB5294 /* ChatroomPage.xib in Resources */,
+				08DE310E2393F8F300BB5294 /* paperplane.gif in Resources */,
 				0840F11B2391294900D5DCA2 /* Main.storyboard in Resources */,
+				08DE310C2393B66B00BB5294 /* ChatpageCellTableViewCell.xib in Resources */,
 				08DE30F02391606400BB5294 /* GoogleService-Info.plist in Resources */,
+				08DE30F723935D3C00BB5294 /* RegisterPage.xib in Resources */,
+				08DE31082393B2A500BB5294 /* ChatPageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,8 +272,12 @@
 			files = (
 				08DE30E923913E9300BB5294 /* ChatroomPage.swift in Sources */,
 				0840F12923912A1B00D5DCA2 /* LoginPage.swift in Sources */,
+				08DE310B2393B66B00BB5294 /* ChatpageCellTableViewCell.swift in Sources */,
 				0840F1182391294900D5DCA2 /* ViewController.swift in Sources */,
+				08DE31072393B2A500BB5294 /* ChatPageViewController.swift in Sources */,
+				08DE30F623935D3C00BB5294 /* RegisterPage.swift in Sources */,
 				0840F1142391294900D5DCA2 /* AppDelegate.swift in Sources */,
+				08DE31102393FABD00BB5294 /* File.swift in Sources */,
 				0840F1162391294900D5DCA2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,6 +423,7 @@
 			baseConfigurationReference = 3E6EF305BA36CA2BE8E896D4 /* Pods-chattapp-Kamilia Latifah.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "chattapp-Kamilia Latifah/chattapp-Kamilia Latifah.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9X9D5WKBDY;
 				INFOPLIST_FILE = "chattapp-Kamilia Latifah/Info.plist";
@@ -392,6 +443,7 @@
 			baseConfigurationReference = 6AEEFA83764487651412F522 /* Pods-chattapp-Kamilia Latifah.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "chattapp-Kamilia Latifah/chattapp-Kamilia Latifah.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9X9D5WKBDY;
 				INFOPLIST_FILE = "chattapp-Kamilia Latifah/Info.plist";
